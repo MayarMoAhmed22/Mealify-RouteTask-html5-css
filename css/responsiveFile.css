@@ -1,0 +1,261 @@
+@media screen and (min-width: 768px) {
+  /* navbar section */
+  .navbar {
+    justify-content: space-between;
+  }
+  .nav-links .nav-content {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: space-between;
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    transform: translateX(0);
+    background-color: transparent;
+    position: static;
+    padding: 0;
+    width: auto;
+  }
+
+  .nav-content a {
+    color: #6d6e6d;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    font-size: 24px;
+  }
+
+  .menu-button,
+  #toggle-menu {
+    display: none;
+  }
+  /* end of navbar section */
+  /* home sction */
+  .last-cont1-section {
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  /* end of home section */
+
+  /* chef section */
+  .cont2-chefs {
+    padding: 50px 30px;
+  }
+  .chefs-content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .chefs-content .chefs-item {
+    width: 46%;
+  }
+
+  /* end of chef section */
+  /* start of gallery section */
+  .gallery-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 1800px;
+  }
+  .gallery-item1 {
+    width: 46%;
+  }
+  .gal-order-1 {
+    order: 0;
+  }
+  .gal-order-2 {
+    order: 1;
+  }
+  .gal-order-3 {
+    order: 2;
+  }
+  .gal-order-4 {
+    order: 3;
+  }
+  .gal-order-5 {
+    order: 4;
+  }
+  .gal-order-6 {
+    order: 5;
+  }
+  .gal-order-7 {
+    order: 7;
+  }
+  /* end of gallery section */
+  /* start of footer section */
+  .footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+
+  .section1-footer,
+  .section3-footer {
+    width: 45%;
+  }
+
+  .section2-footer {
+    width: 100%;
+    order: 2;
+  }
+
+  .section1-footer {
+    order: 0;
+  }
+
+  .section3-footer {
+    order: 1;
+  }
+  /* end of footer section */
+}
+@media (min-width: 1024px) {
+  /* common section */
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .web-heading {
+    padding-bottom: 0px;
+  }
+
+  .web-heading h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
+  .web-heading p {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    color: #a6acbb;
+  }
+  /* end of common section */
+  /* navbar section */
+  .navbar {
+    display: flex;
+  }
+  .nav-links {
+    display: flex;
+    gap: 10px;
+  }
+  /* end of navbar */
+
+  /* home section */
+  .cont1-father {
+    display: flex;
+    gap: 24%;
+    flex-direction: row-reverse;
+  }
+  .home-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    text-align: left;
+  }
+  .home-heading p {
+    font-size: 16px;
+  }
+  .cont1 .home-img {
+    width: 550px;
+  }
+  .cont1-btn {
+    border-radius: 0px 25px 25px 25px;
+  }
+  .home-img {
+    align-self: flex-end;
+  }
+  /* end of home section */
+  /* chef section */
+  .chefs-content {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .chefs-content .chefs-item {
+    width: 33.33%;
+  }
+  /* end of chef section */
+
+  /* gallery section  */
+  .gallery-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 1400px;
+  }
+  .gallery-item1 {
+    width: 33.33%;
+  }
+  .gal-order-1 {
+    order: 0;
+  }
+  .gal-order-3 {
+    order: 1;
+  }
+  .gal-order-5 {
+    order: 2;
+  }
+  .gal-order-4 {
+    order: 3;
+  }
+  .gal-order-2 {
+    order: 4;
+  }
+  .gal-order-6 {
+    order: 5;
+  }
+  .gal-order-7 {
+    order: 6;
+  }
+  /* end of gallery section */
+  /* contact section  */
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    margin-top: 20px;
+  }
+  .contact-content .contact-item {
+    width: 45%;
+  }
+
+  .double-inp {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  /* end of contact section */
+  /* start of footer section */
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    height: auto;
+  }
+  .section1-footer,
+  .section2-footer,
+  .section3-footer {
+    width: 30%;
+  }
+  .section1-footer {
+    order: 0;
+  }
+  .section2-footer {
+    order: 1;
+  }
+  .section3-footer {
+    order: 2;
+  }
+  /* end of footer section */
+}
